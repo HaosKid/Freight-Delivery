@@ -1,4 +1,4 @@
-import { Footer } from './Footer'
+import Footer from './Footer'
 
 export function Articol11() {
     return(

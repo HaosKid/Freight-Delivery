@@ -10,6 +10,33 @@ html{
     justify-content: center;
     flex-direction: column;
   }
+
+                                                /* Animation */
+.UpLink{
+  transition: transform 250ms;
+}
+.UpLink:hover{
+  transform: translateY(-2px);
+}
+.ButtonColorChange{
+  transition: background-color 250ms;
+}
+.ButtonColorChange:hover{
+  background-color: #FFFFFF;
+  color: #009051;
+  border: 2px solid #009051;
+}
+.ButtonReverseChange{
+  transition: background-color 250ms;
+}
+.ButtonReverseChange:hover{
+  background-color: #009051;
+  color: #FFFFFF;
+  border: none;
+}
+
+
+
                                                   /* Header */
   header{
     background-color: #F6F6F6;
@@ -121,6 +148,15 @@ html{
   .firstPhone{
     margin-right: 20px;
   }
+  .SpinImage{
+    transition: transform 250ms;
+  }
+  .SpinImage:hover{
+    transform: scale(1.1);
+  }
+
+
+
                                                   /* Section 2 */
   .art2{
     padding-top: 80px;

@@ -1,20 +1,17 @@
-
-
-
 import './App.css'
 import LinkBar from './Components/LinkBar'
-import Articol0 from './Components/Articol0'
-import Articol1 from './Components/Articol1'
-import Articol2 from './Components/Articol2'
-import Articol3 from './Components/Articol3'
-import Articol4 from './Components/Articol4'
-import Articol5 from './Components/Articol5'
-import Articol6 from './Components/Articol6'
-import Articol7 from './Components/Articol7'
-import Articol8 from './Components/Articol8'
-import Articol9 from './Components/Articol9'
-import Articol10 from './Components/Articol10'
-import Articol11 from './Components/Articol11'
+import A0Header from './Components/A0Header'
+import A1LearnMore from './Components/A1LearnMore'
+import A2Solution from './Components/A2Solution'
+import A3SecuredTransactions from './Components/A3SecuredTransactions'
+import A4WideNetwork from './Components/A4WideNetwork'
+import A5Convenience from './Components/A5Convenience'
+import A6Services from './Components/A6Services'
+import A7WhoWeServe from './Components/A7WhoWeServe'
+import A8HowItWorks from './Components/A8HowItWorks'
+import A9FAQ from './Components/A9FAQ'
+import A10EndlessPosib from './Components/A10EndlessPosib'
+import A11CTA from './Components/A11CTA'
 
 function App() {
 
@@ -22,18 +19,18 @@ function App() {
   return (
     <>
       <LinkBar />
-      <Articol0/>
-      <Articol1 />
-      <Articol2 />
-      <Articol3 />
-      <Articol4 />
-      <Articol5 />
-      <Articol6 />
-      <Articol7 />
-      <Articol8 />
-      <Articol9 />
-      <Articol10 />
-      <Articol11 />
+      <A0Header />
+      <A1LearnMore />
+      <A2Solution />
+      <A3SecuredTransactions />
+      <A4WideNetwork />
+      <A5Convenience />
+      <A6Services />
+      <A7WhoWeServe />
+      <A8HowItWorks />
+      <A9FAQ />
+      <A10EndlessPosib />
+      <A11CTA />
     </>
   )
 }

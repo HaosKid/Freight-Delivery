@@ -11,7 +11,7 @@ import footerLocation from '../assets/footerLocation.png'
 
 export default function Footer() {
     return(
-        <footer className="a11Footer">
+        <footer className="a11Footer" id='footer'>
               <div className="upperFooter">
                 <div className="footerLeft">
                   <img src={Logo} alt="Logo" />
@@ -27,10 +27,10 @@ export default function Footer() {
                     <h2 className="footerHead">
                       Menu
                     </h2>
-                    <a href="#" className='menuItem'>Home</a>
-                    <a href="#" className='menuItem'>Services</a>
-                    <a href="#" className='menuItem'>How it Works?</a>
-                    <a href="#" className='menuItem'>Pricing</a>
+                    <a href="#" className='menuItem UpLink'>Home</a>
+                    <a href="#Services" className='menuItem UpLink'>Services</a>
+                    <a href="#howItWorks" className='menuItem UpLink'>How it Works?</a>
+                    <a href="#JoinUs" className='menuItem UpLink'>Pricing</a>
                   </div>
 
                   <div className="footerContact">
@@ -38,11 +38,11 @@ export default function Footer() {
                       Contact
                     </h2>
 
-                      <p><img src={footerPhone} alt="" /> +234 123 4567 890</p>
+                      <p className='UpLink'><img src={footerPhone} alt=""/> +234 123 4567 890</p>
 
-                      <p><img src={footerMail} alt="" /> info@example.com</p>
+                      <p className='UpLink'><img src={footerMail} alt=""/> info@example.com</p>
 
-                      <p><img src={footerLocation} alt="" /> The best street in the world N.2</p>
+                      <p className='UpLink'><img src={footerLocation} alt=""/> The best street in the world N.2</p>
 
                   </div>
 
@@ -65,10 +65,10 @@ export default function Footer() {
               <div className="footerBottom">
                 <p className='copyright'>Copyright © 2023 Tradely</p>
                 <div className="SocialMedia">
-                  <img src={Instagram} alt="Instagram logo" />
-                  <img src={Linkedin} alt="Linkedin logo" />
-                  <img src={Facebook} alt="Facebook logo" />
-                  <img src={Twitter} alt="Twitter logo" />
+                  <img src={Instagram} alt="Instagram logo"  className='UpLink'/>
+                  <img src={Linkedin} alt="Linkedin logo"  className='UpLink'/>
+                  <img src={Facebook} alt="Facebook logo"  className='UpLink'/>
+                  <img src={Twitter} alt="Twitter logo"  className='UpLink'/>
                 </div>
               </div>
             </footer>

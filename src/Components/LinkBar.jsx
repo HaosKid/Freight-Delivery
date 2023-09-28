@@ -5,14 +5,14 @@ export default function LinkBar() {
     <img src={Logo} alt="Tradely Logo" />
     <div className='mainMenu'>
 
-      <a href="#art0"><b>Home</b></a>
-      <a href="#Services"><b>Services</b></a>
-      <a href="#howItWorks  "><b>How it works?</b></a>
+      <a href="#art0" className='UpLink'><b>Home</b></a>
+      <a href="#Services" className='UpLink'><b>Services</b></a>
+      <a href="#howItWorks" className='UpLink'><b>How it works?</b></a>
     </div>
     <div className="CTA">
-      <a href="#" id='contact'>Contact</a>
+      <a href="#footer" id='contact'>Contact</a>
       <div className="singUp">
-        <a href="#" id='anchorSingUp'>Sign up</a>
+        <a href="#JoinUs" id='anchorSingUp'>Join Us</a>
       </div>
     </div>
   </header>)
